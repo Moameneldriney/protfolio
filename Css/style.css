@@ -1,0 +1,635 @@
+/* 567 lines  */
+
+/* start main rules */
+body{ 
+    /* background-color: rgb(202, 210, 240) ; */
+    /* height: 4000px; */
+    background-image: url('../images/20.jpg') ;
+    background-repeat: repeat;
+    background-size: cover;
+    
+
+}
+
+.container {
+    /* width: 1170px;
+    margin: auto; */
+}
+.clearfix{clear: both;}
+
+/* end main rules  */
+
+/* start header */
+
+.header .slider{
+    background-image: url('../images/19.jpg') ;
+    -webkit-background-size: cover ;     /* css3 w 7rka lazeza 34an azbot el sora */
+    -moz-background-size: cover ;     /* css3 w 7rka lazeza 34an azbot el sora */
+    -o-background-size: cover ;     /* css3 w 7rka lazeza 34an azbot el sora */
+    background-size: cover;
+    height:550px ;
+    /* background-attachment: fixed ; الامر الي بيظزبط السكرول بتاع الصفحه  */
+ 
+}
+.header .slider .intro    {
+    
+    padding-top: 200px;
+    height: 500px;
+    text-align: center ;
+    /* margin-left: 685px ; */
+    /* color: #2ABFA6; */
+
+}
+.header .slider .intro a {
+    /* margin-left: 105px; */
+    margin-top: 20px;
+    background-color: #4C2250;
+    /* background: none; هننا الخلفيه بتاعه الزرار */
+    color: #fff ;
+    /* border: 2px solid;   ده الاطار بتاع الزرار  */
+    padding: 10px 20px ;
+    border-radius: 10px 20px ;
+    font-size: 20px;
+    text-decoration: none ;
+}
+.header .slider .intro  h2 {
+    /* margin: 0 auto ; */
+    color: darksalmon ;
+    font-size: 50px;
+    /* width: 600px; */
+    border-top: 3px solid #fff ;
+    border-bottom : 3px solid #fff ;
+    padding: 5px 0 ;
+    
+}
+..navbar-nav{
+    float: right;
+}
+.header .navbar {
+    background-color: #626163;
+    color: #fff ;
+    overflow: hidden;     /* عشان اللينكات متطلعش برة*/ 
+   
+
+}
+.header .navbar h2 {
+        /* float: left ;  frame work  و عملتها في ال   هشيل ال فلوت ليفت  */
+        text-transform: uppercase ;
+        font-size: 25px;
+    }
+.header .navbar h2 span{color:#4C2250}
+
+.header .navbar ul{
+    list-style: none ;
+    padding-left: 0 ;
+    overflow: hidden;      /* عشان اللينكات متطلعش برة*/    
+    /* float: right; */
+     
+}
+.navbar-brand{
+    padding: 0px 15px;
+    padding-right: 74px
+}
+.nav1 {
+    background-color: #626163;
+    /* border-color: #e7e7e700; */
+    /* border-color: none; */
+}
+
+.header .navbar ul li {
+     /* float: left; */
+     padding: 10px 0;
+     font-size: 20px;
+    }
+.header .navbar ul li a {
+    color: #fff ;
+    text-decoration: none ;
+}
+.header .navbar ul li.active a ,
+.header .navbar ul li a:hover {
+    color: #4C2250 ;
+}
+
+/* end header */
+/* start features */
+.features {
+    overflow: hidden;
+    padding-top:30px;   /*علشان ادي مسافه فوق و تحت و يمين و شمال للصفحه*/
+    padding-bottom: 55px;  /* البادينج بحدد منه المسافات ما بين كل ديف
+                               و التاني عشان  الشكل يكون حلووو */
+    
+}
+.features .feat {
+    /* float: left;  in frame work  */
+    /* width: 33.3333% ; */
+    height: 150px ;
+    /* background-color: #ddd ; */  /* el lon bta3 el hobbies */
+}
+.features .feat h2{
+    text-transform: uppercase ; 
+    color: #fff ;
+    text-align: center ;
+}
+.features .feat p{
+    color: #fff ;
+    line-height: 1.5 ;
+    text-align: justify ;    /*btzbt el stor fo2 b3d bl tsawy */
+    padding: 0 30px 0  0 ;    /*34an azbot el ab3ad ben el stoor*/
+}
+
+/* end features  */
+/* start about me */
+.about-me{
+    background-color: #62616399  ;
+    /* overflow: hidden;
+    height: 470px; */
+}
+.about-me .image {
+    /* float: left; in frame work */
+    /* width: 30%; */
+
+}
+.about-me .image img {
+
+    width: 100%;
+    border-radius: 20px;
+    height: 635px;
+}
+
+.about-me .info {
+    /* float:left ;  in frame work  */
+    /* width: 60% ;  */
+    /* padding: 0 10px 0 100px; */
+    color: #fff ;
+    text-align: center ;
+   
+}
+
+.about-me .info h2{
+color: #E9967A ;
+text-decoration: underline;
+}
+.about-me .info p{
+    text-align: justify ;
+    font-size: 20px ;
+    font-weight: 700 ;
+    line-height: 1.2 ;
+    
+}
+.about-me .info p:last-of-type{
+    margin-top: 0px;
+}
+.about-me .info .hobbies {
+    /* overflow: hidden; */
+    margin: 15px;
+    font-size: 22px;
+    text-align: left;
+    color: #000;
+    font-weight: 1000 ;
+    text-transform: capitalize;
+ /* text-transform: uppercase; */ /*kol el 7rof htkon capital */
+    
+}
+.about-me .info .hobbies .content{
+    /* float: left ;  in frame work */
+    /* width: 43%; */
+    /* min-height: 100px; */
+    padding: 10px 20px;
+    overflow: hidden;
+}
+.about-me .info .hobbies span {
+    color: #fff ;
+
+}
+.about-me .info hr{
+    height: 1px;
+    /* width: 20;
+    text-align: center ; */
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  border: none;
+}
+.about-me .info .hobbies .content .icon {
+   /* float:left ; in frame work */
+   width:10% ;
+  
+}
+
+.about-me .info .hobbies .content .icon img {
+    max-width: 100%;
+    margin:0px 0px 0 0 ;
+}
+.about-me .info .hobbies .content .text {
+    /* float:left ; in frame work*/
+    width: 84%;
+    padding: 0 0px 0 17px;
+ }
+
+/* end about me */
+
+/* start my skills  */
+.my-skills{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.my-skills .skills , 
+.my-skills .progress{
+    /* float: left;  in frame work */
+    /* width: 50%; */
+}
+
+.my-skills .skills h2{
+color: #E9967A ;
+text-decoration: underline;
+margin: 25px 0 20px 40px ;
+
+}
+.my-skills .skills p{
+    text-align: justify ;
+    font-size: 20px ;
+    font-weight: 700 ;
+    line-height: 1.2 ;
+    color: rgb(255, 255, 255) ;
+    margin: 25px 0 20px 40px ;
+
+    
+}
+.my-skills .skills p:last-of-type{
+    margin-top: 25px;
+}
+.my-skills .skills button {
+    margin-top: 20px ;
+    margin-left: 40px;
+}
+.my-skills .progress .tech { 
+    margin-left: 50px;
+ }
+.my-skills .progress .tech h3 {
+    color: #fff ;
+
+}
+.my-skills .progress .tech div {
+    background-color: rgba(53, 77, 167, 0.3);;
+    height: 20px ;
+
+}
+.my-skills .progress .tech div span {
+  background-color: #E9967A ;  
+  height: 20px ;
+  display: block ;
+  line-height: 25px;
+  text-align: right ;
+  color: #000;
+  font-weight: bold;
+}
+.progress {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    margin-left:90px;
+}
+.progress .progress-bar span{
+    color: #000 ;
+    font-size: 20px ;
+
+}
+.progress-title{
+    color: #fff;
+    margin-left: 92px;
+
+    text-transform: capitalize ;
+
+}
+.my-skills .sports {
+margin-top: 60px ;
+}
+/* end my skills */
+
+ /* start resume  */
+ .resume {
+     background-color: rgba(220, 159, 119,0.7); ;
+     padding-top: 50px;
+     padding-bottom: 70px;
+     text-align: center;
+ }
+ .resume h2 {
+    text-transform: uppercase;
+    font-weight: bold ;
+ }
+ .resume button{
+     margin-top: 30px; 
+ }
+ .resume p{
+     /* line-height: 1.7 ; in fram work  */
+     color: #000 ;
+     padding: 0 40px;   
+ }
+
+ /* end resume  */
+ /* start my education  */
+.my-education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.my-education  hr{
+    margin: 20px 0 ;
+    background-color: #fff ;
+    height: 1px;
+    border: 0 ; 
+    }
+
+.my-education .main {
+    /* float: left;  in frame work    */
+    /* margin-right: 5% ; */
+    /* width: 50%; */
+}
+
+.my-education .main h2{
+    color: #E9967A ;
+    text-decoration: underline;
+    margin: 25px 0 20px 0px ;
+    text-transform: capitalize;
+    
+    }
+    .my-education .main p{
+        text-align: justify ;
+        font-size: 15px ;
+        font-weight: 700 ;
+        line-height: 1.2 ;
+        color: rgb(255, 255, 255) ;
+        margin: 25px 0 20px 0px ;
+    
+        
+    }
+    .my-education .main p:last-of-type{
+        margin-top: 25px;
+    }
+
+    .my-education .exp{
+        /* float: left;  in frame work   */
+        /* width: 45%; */
+    }
+    .my-education .exp h3 {
+        margin-top:70px;
+        margin-bottom: 5px;
+        text-transform: capitalize ;
+        color: #B36F7A ;
+    }
+    .my-education .exp span {
+        display: block ;
+        margin-bottom: 8px;
+    }
+    .my-education .exp span:first-of-type {
+        color:#fff;
+    }
+    .my-education .exp span:last-of-type{
+       background-color: #E9967A;
+       color: rgb(0, 0, 0) ;
+       display: inline-block;
+       padding: 2px 8px ;
+       font-weight: bold ; 
+       /* border: 1px solid rgb(241, 241, 241); لو عايز احط بوردير و كده  */ 
+    }
+    
+    .my-education .exp p {
+        /* line-height: 1.7 ; in frame work  */
+        color: #fff ;
+
+    }
+/* end my education */
+
+/* start testimonials  */
+
+
+.testimonials {
+    background-color: #72BDD1  ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.testimonials q {
+    color: #000 ;
+    font-size: 18px;
+    line-height: 1.8 ;
+    font-style: italic ;
+    font-weight: bold;
+    font-family: Tahoma, arial ; }
+    /* font:italic bold 18px/1.8 tahoma, arial ; شكل تاني نقدر نكتب بيه اي حاجه اختصار للخط  */
+ .testimonials h3 {
+     color: black ;
+     margin-bottom: 30px ;
+
+    }
+.testimonials ul {
+    list-style:none;
+    padding-left: 0 ;
+    margin-top: 10px;
+ }
+ .testimonials ul li {
+     width: 15px;
+     height: 15px ;
+     border: 2px solid rgba(24, 6, 36, 0.63) ;
+     text-align: center ;
+    display: inline-block;
+    cursor: pointer;  /* عشان شكل الماوس يتغير  */
+   
+ }
+ .testimonials ul li.active, .testimonials ul li:hover {
+     background-color: rgba(24, 6, 36, 0.63) ;
+ }
+ 
+
+/* end testimonials  */
+/* start portfolio  */
+.protfolio{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: #E9C67F ;
+    text-align: center ; 
+ }
+ .protfolio h2 {
+     color: #000;
+     text-transform: capitalize ;
+ }
+ .protfolio p{
+     /* line-height: 1.7; in frame work  */
+     color: #000 ;
+     margin-bottom: 10px;
+
+ }
+ .protfolio .our-work{
+    overflow: hidden;
+ }
+ .protfolio .our-work > div{
+     /* float: left;  
+     width: 50% ; */
+     margin-bottom: 15px ;
+ }
+ .protfolio .our-work > div img {
+     width: 95% ; margin: 10px ;
+     padding: 3px;
+     background-color: rgb(226, 179, 109) ;
+     border: 1px solid rgb(226, 179, 109) ;
+     box-shadow: 1px 14px 20px 0px #15286fc7;
+    
+    
+    }
+
+/* end portfolio  */
+
+/* start contact me  */
+.contact {
+    background-color: #575965 ;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px ;
+}
+.contact .info {
+    /* width: 50% ; */
+    /* float: left;  in frame work*/
+    margin-right: 5%;
+
+    
+}
+.contact h2{
+    margin-left: 40px;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+
+.contact p {
+    margin-left: 40px;
+    color: bisque ;
+    /* line-height: 1.7; in frame work  */
+    text-transform: capitalize;
+    text-align: justify;
+}
+.contact p strong {
+    color: #000 ;
+    font-weight: bold ;
+
+}
+.contact .form {
+    /* width: 45% ; */
+    /* float: left;  in frame work  */
+  
+}
+.contact .form label {
+    display: block ;
+    color: #D7B97E ;
+    margin: 25px 0 ;
+
+
+}
+.contact .form  INput[type="text"] {
+    background-color:#DEBE80 ;
+    padding: 6px ;
+    color: #000 ;
+    border: 0;
+    width: 100% ;
+    margin-bottom: 10px;
+}
+.contact .form  textarea {
+    background-color:rgb(231, 222, 205) ;
+    padding: 6px ;
+    color: #000 ;
+    border: 0;
+    width: 100% ;
+    margin-bottom: 10px;
+    height: 300px;
+}
+.contact .form INput[type="submit"]{
+    background-color: #CFB976 ;
+    border: 0;
+    padding: 6px 10px ;
+    color: #000 ;
+    font-weight: bold ;
+    margin-top: 10px;  
+}
+
+ /* end contact me  */
+ 
+ /* start footer  */
+.footer {
+    background-color: darksalmon ;
+    color: mediumvioletred ;
+    padding:  20px ;
+    text-align: center ;
+    overflow: hidden ;
+
+}
+.footer ul {
+    list-style: none ;
+    padding-left: 0 ;
+    margin: 10px 0 0 ;
+}
+.footer ul  li {
+    display: inline-block ;
+    padding: 0 6px;
+    }
+    .footer ul  li i:hover {color: #fff ;}
+
+    .footer ul  li .fa-facebook-square{
+        color: #4267B2;
+        font-size: 25px;
+    }
+    .footer ul  li .fa-linkedin-square{
+        color: rgb(39, 86, 180);
+        font-size: 25px;
+    }
+    .footer ul  li .fa-google-plus-square{
+        color: rgb(214, 28, 28);
+        font-size: 25px;
+    }
+    .footer ul  li .fa-twitter-square{
+        color: rgb(108, 146, 223);
+        font-size: 25px;
+    }
+    /* .footer ul  li img {
+        width: 24px ;
+        border-radius: 20px;
+    } */
+    /* .footer ul  li img:hover {color: #fff; } */
+
+ /* end footer  */
+
+/* start my framework */
+.my-button {
+    background: none ;
+    border: 2px solid rgb(214, 214, 214) ;
+    padding: 10px 30px ;
+    color: #E9967A ;
+    border-radius: 15px ;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.my-button1 {
+    background: none ;
+    border: 2px solid #56008F ;
+    padding: 10px 30px ;
+    color: rgb(0, 0, 0) ;
+    border-radius: 15px ;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.fl-left { float: left ; }  /*floating element left*/
+p {
+   line-height: 1.7 ; /* for all paragreaph in code */
+}
+h2 , h3 {
+    color: rgb(247, 247, 247) ;
+}
+.text-center {
+    /* هحط فيخها اي حاجة تخص اي ديف و بيتكتب ف النص  */
+}
+/* end my framework */
+.navbar-default{
+    border: unset!important;
+}
